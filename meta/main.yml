@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: tutunak
+  author: Dmitriy Kotov
   description: ansible-node-exporter role
   license: MIT
   platforms:
