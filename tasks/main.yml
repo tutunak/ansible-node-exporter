@@ -1,2 +1,10 @@
 ---
-# tasks file for ansible-node-exporter
+- name: Create the node_exporter group
+  group:
+    name: "{{ node_exporter_group }}"
+    state: present
+    system: true
+
+- name: Create the node_exporter user
+  user:
+    name: "{{ node_exporter_user }}"
